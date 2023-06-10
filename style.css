@@ -1,0 +1,131 @@
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  background-color: lightgray;
+}
+
+
+.container {
+  display: flex;
+  border: 1px solid black;
+  max-height: 550px;
+  max-width: 450px;
+  border-radius: 5px;
+}
+
+.item {
+  flex-basis: 50%;
+  
+}
+
+.item img {
+  height: 100%;
+  width: 100%;
+}
+
+.textContainer {
+  height: 100%;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  /* word-wrap: break-word; */
+
+  /* learn how to shrink the text */
+  font-size: 16px;
+  padding: 5px;
+}
+
+.title {
+  margin-top: 15px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.price h2,
+.price h4 {
+  display: inline;
+}
+
+.price h4 {
+  text-decoration: line-through;
+}
+
+.price {
+  text-align: center;
+}
+
+button {
+  background-color: gray;
+  color: white;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+
+
+/* .container {
+  display: flex;
+  background-color: black;
+  height: 50%;
+  border: 3px solid yellow;
+
+}
+
+.item1 {
+  flex: 1; 
+  background-color: aqua;
+  height: 100%;
+  border: 1px solid black;
+  
+}
+
+.item2 img {
+  flex: 1; 
+  height: 100%;
+  box-sizing: border-box;
+  width: 300px;
+}
+
+
+#p2 {
+  width: 189px;
+}
+
+h1 {
+  width: 150px;
+}
+
+h2, #p1 {
+    display: inline;
+  }
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+#addToCartButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+} */
